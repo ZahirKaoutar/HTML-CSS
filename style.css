@@ -1,0 +1,60 @@
+#mySidebar {
+    z-index:3;width:300px;
+
+}
+
+.w3-round{
+    width:45%;
+}
+.myOverlay{
+    cursor:pointer;
+}
+.w3-main{
+    margin-left:300px;
+}
+#portfolio img {
+    width:65px;
+    
+}
+
+
+
+.w3-hover-opacity {
+    width:100%;
+}
+.w3-hover-opacity{
+    width:100%;
+}
+
+#about img {
+    width:100%;
+
+}
+#w3 {
+    width:95%;
+}
+#w4 {
+    width:85%;
+}
+#w5 {
+    width:50%;
+}
+.w3-row-paddin{
+    margin:0 -16px;
+}
+/* *contact */
+#w3-row  {
+    margin:0 -16px;
+}
+/* *footer */
+.w3-third{
+    width: 50%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+} 
+
+.grid .card{
+    width: 100% !important;
+}
