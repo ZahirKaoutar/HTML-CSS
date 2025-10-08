@@ -1,60 +1,83 @@
-#mySidebar {
-    z-index:3;width:300px;
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
 }
-
+body{
+    max-width:1600px;
+    font-family: "Raleway", sans-serif;
+}
+/* sidebar */
+.w3-sidebar{
+    z-index:3;width:300px;
+}
 .w3-round{
     width:45%;
 }
-.myOverlay{
-    cursor:pointer;
-}
-.w3-main{
-    margin-left:300px;
-}
-#portfolio img {
-    width:65px;
+.w3-panel{
+    display: flex;
     
 }
+/* Overlay  */
+#myOverlay{
+    cursor: pointer;
 
-
-
-.w3-hover-opacity {
-    width:100%;
 }
+
+
+/* Header  */
+.w3-circle{
+    width:65px;
+}
+/* .w3-section {
+    display:flex;
+} */
+
+
+/* First Photo GriD*/
 .w3-hover-opacity{
     width:100%;
-}
 
-#about img {
+}
+/* second Photo GriD*/
+.w3-col img {
     width:100%;
 
-}
-#w3 {
-    width:95%;
-}
-#w4 {
-    width:85%;
-}
-#w5 {
-    width:50%;
-}
-.w3-row-paddin{
-    margin:0 -16px;
-}
-/* *contact */
-#w3-row  {
-    margin:0 -16px;
-}
-/* *footer */
-.w3-third{
-    width: 50%;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-} 
 
-.grid .card{
-    width: 100% !important;
 }
+/* about*/
+.about{
+    margin-bottom:32px;
+
+}
+/* skills*/
+.s1{
+width:95%;
+}
+.s2{
+    width:85%;
+
+}
+.s3{
+    width:80%;
+
+}
+
+/* pricing*/
+.pricing{
+    margin:0 -16px;
+    display:flex;
+}
+/* contact*/
+.contact{
+    margin:0 -16px;
+    display:flex;
+}
+/* footer*/
+.w3-left{
+    width:50px;
+}
+
+
+
+
+
